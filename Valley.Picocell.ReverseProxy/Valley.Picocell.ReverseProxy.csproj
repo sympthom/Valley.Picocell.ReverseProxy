@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fonts\banner.flf" />
+    <None Remove="fonts\big.flf" />
+    <None Remove="fonts\block.flf" />
+    <None Remove="fonts\bubble.flf" />
+    <None Remove="fonts\digital.flf" />
+    <None Remove="fonts\ivrit.flf" />
+    <None Remove="fonts\lean.flf" />
+    <None Remove="fonts\mini.flf" />
+    <None Remove="fonts\script.flf" />
+    <None Remove="fonts\shadow.flf" />
+    <None Remove="fonts\slant.flf" />
+    <None Remove="fonts\small.flf" />
+    <None Remove="fonts\smscript.flf" />
+    <None Remove="fonts\smshadow.flf" />
+    <None Remove="fonts\smslant.flf" />
+    <None Remove="fonts\standard.flf" />
+    <None Remove="fonts\term.flf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="fonts\banner.flf" />
+    <Content Include="fonts\big.flf" />
+    <Content Include="fonts\block.flf" />
+    <Content Include="fonts\bubble.flf" />
+    <Content Include="fonts\digital.flf" />
+    <Content Include="fonts\ivrit.flf" />
+    <Content Include="fonts\lean.flf" />
+    <Content Include="fonts\mini.flf" />
+    <Content Include="fonts\script.flf" />
+    <Content Include="fonts\shadow.flf" />
+    <Content Include="fonts\slant.flf" />
+    <Content Include="fonts\small.flf" />
+    <Content Include="fonts\smscript.flf" />
+    <Content Include="fonts\smshadow.flf" />
+    <Content Include="fonts\smslant.flf" />
+    <Content Include="fonts\standard.flf" />
+    <Content Include="fonts\term.flf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.9" />
+    <PackageReference Include="Microsoft.Azure.Devices" Version="1.17.0" />
+    <PackageReference Include="Microsoft.Azure.Devices.Client" Version="1.18.0" />
+    <PackageReference Include="Polly" Version="6.1.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+    <PackageReference Include="System.Reactive" Version="4.1.0" />
+    <PackageReference Include="Valley.Net.Bindings" Version="1.0.1" />
+    <PackageReference Include="Valley.Net.Protocols.Picocell" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
